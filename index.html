@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio website">
+    <title>Alex Morgan | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                Alex<span>.</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                    <h1>
+                        Hi, I'm
+                        <span>Alex Morgan</span>
+                    </h1>
+
+                    <h2>Web Developer & UI Designer</h2>
+
+                    <p class="hero-description">
+                        I create modern, responsive and user-friendly websites
+                        that combine clean design with powerful functionality.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Work
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="#" aria-label="Twitter">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-circle">
+                        <div class="profile-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-one">
+                        <i class="fas fa-code"></i>
+                        <span>Clean Code</span>
+                    </div>
+
+                    <div class="floating-card card-two">
+                        <i class="fas fa-palette"></i>
+                        <span>Creative Design</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- About -->
+        <section class="section about" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">ABOUT ME</p>
+                    <h2>Turning ideas into <span>digital experiences</span></h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-image">
+                        <div class="about-image-box">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+
+                    <div class="about-content">
+                        <h3>I'm a passionate developer who loves building things for the web.</h3>
+
+                        <p>
+                            I'm a frontend developer focused on creating beautiful,
+                            accessible and high-performing websites. I enjoy solving
+                            problems with code and turning ideas into useful digital
+                            products.
+                        </p>
+
+                        <p>
+                            When I'm not coding, I enjoy learning new technologies,
+                            experimenting with design and working on personal projects.
+                        </p>
+
+                        <div class="about-info">
+                            <div>
+                                <strong>3+</strong>
+                                <span>Years Experience</span>
+                            </div>
+
+                            <div>
+                                <strong>40+</strong>
+                                <span>Projects Completed</span>
+                            </div>
+
+                            <div>
+                                <strong>25+</strong>
+                                <span>Happy Clients</span>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">
+                            Download CV
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skills -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+
+                <div class="section-heading center">
+                    <p class="section-label">MY SKILLS</p>
+                    <h2>Technologies I <span>work with</span></h2>
+                    <p>
+                        A selection of technologies and tools I use to create
+                        modern web applications.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-icon html">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>Semantic and accessible web structure.</p>
+                        <div class="progress">
+                            <span style="width: 95%"></span>
+                        </div>
+                        <small>95%</small>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon css">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>Responsive layouts and modern animations.</p>
+                        <div class="progress">
+                            <span style="width: 90%"></span>
+                        </div>
+                        <small>90%</small>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon js">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive and dynamic web applications.</p>
+                        <div class="progress">
+                            <span style="width: 88%"></span>
+                        </div>
+                        <small>88%</small>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon react">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h3>React</h3>
+                        <p>Modern component-based interfaces.</p>
+                        <div class="progress">
+                            <span style="width: 82%"></span>
+                        </div>
+                        <small>82%</small>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon git">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <h3>Git</h3>
+                        <p>Version control and collaborative development.</p>
+                        <div class="progress">
+                            <span style="width: 85%"></span>
+                        </div>
+                        <small>85%</small>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon ui">
+                            <i class="fas fa-pen-nib"></i>
+                        </div>
+                        <h3>UI Design</h3>
+                        <p>Clean, intuitive and user-focused interfaces.</p>
+                        <div class="progress">
+                            <span style="width: 86%"></span>
+                        </div>
+                        <small>86%</small>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Projects -->
+        <section class="section projects" id="projects">
+            <div class="container">
+
+                <div class="section-heading center">
+                    <p class="section-label">MY WORK</p>
+                    <h2>Featured <span>projects</span></h2>
+                    <p>
+                        Some of my recent projects and experiments.
+                    </p>
+                </div>
+
+                <div class="project-grid">
+
+                    <article class="project-card">
+                        <div class="project-image project-one">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <h3>E-Commerce Website</h3>
+
+                            <p>
+                                A modern online store with responsive design,
+                                product filtering and shopping cart functionality.
+                            </p>
+
+                            <div class="project-links">
+                                <a href="#" aria-label="Live project">
+                                    Live Demo <i class="fas fa-external-link-alt"></i>
+                                </a>
+
+                                <a href="#" aria-label="Source code">
+                                    GitHub <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <div class="project-image project-two">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>API</span>
+                                <span>CSS</span>
+                            </div>
+
+                            <h3>Analytics Dashboard</h3>
+
+                            <p>
+                                A responsive dashboard for displaying business
+                                statistics, charts and performance metrics.
+                            </p>
+
+                            <div class="project-links">
+                                <a href="#">
+                                    Live Demo <i class="fas fa-external-link-alt"></i>
+                                </a>
+
+                                <a href="#">
+                                    GitHub <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <div class="project-image project-three">
+                            <i class="fas fa-mobile-screen-button"></i>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>API</span>
+                            </div>
+
+                            <h3>Weather Application</h3>
+
+                            <p>
+                                A weather application that displays current
+                                conditions and forecasts using an API.
+                            </p>
+
+                            <div class="project-links">
+                                <a href="#">
+                                    Live Demo <i class="fas fa-external-link-alt"></i>
+                                </a>
+
+                                <a href="#">
+                                    GitHub <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Services -->
+        <section class="section services" id="services">
+            <div class="container">
+
+                <div class="section-heading center">
+                    <p class="section-label">WHAT I DO</p>
+                    <h2>My <span>services</span></h2>
+                </div>
+
+                <div class="services-grid">
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+
+                        <h3>Web Development</h3>
+
+                        <p>
+                            Fast, responsive and scalable websites built
+                            using modern web technologies.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+
+                        <h3>UI/UX Design</h3>
+
+                        <p>
+                            User-friendly interfaces designed to create
+                            enjoyable digital experiences.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+
+                        <h3>Responsive Design</h3>
+
+                        <p>
+                            Websites that look great and work smoothly
+                            across phones, tablets and desktops.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section class="section contact" id="contact">
+            <div class="container">
+
+                <div class="section-heading center">
+                    <p class="section-label">GET IN TOUCH</p>
+                    <h2>Let's work <span>together</span></h2>
+                    <p>
+                        Have a project in mind? Send me a message and let's
+                        discuss how I can help.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-info">
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+
+                            <div>
+                                <h3>Email</h3>
+                                <p>hello@example.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+254 700 000 000</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-location-dot"></i>
+                            </div>
+
+                            <div>
+                                <h3>Location</h3>
+                                <p>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <form class="contact-form" id="contactForm">
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="John Doe"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="john@example.com"
+                                    required
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="Project inquiry"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Tell me about your project..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+
+                        <p class="form-message" id="formMessage"></p>
+
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <div>
+                <a href="#home" class="logo">
+                    Alex<span>.</span>
+                </a>
+
+                <p>
+                    Building digital experiences with code and creativity.
+                </p>
+            </div>
+
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>
+                &copy; <span id="year"></span> Alex Morgan. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
